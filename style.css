@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+}
+body {
+    line-height: 1.5;
+}
+img, picture {
+    display: block;
+    max-width: 450px;
+}
+:root {
+    --dark-background: #1F2937;
+    --light-color: #F9FAF8;
+    --gray-background: #E5E7EB;
+    --button-color: #3882F6;
+}
+
+h1 {
+    font-size: 48px;
+    color: var(--light-color);
+    line-height: 1;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 24px;
+    color: var(--light-color);
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--dark-background);
+}
+
+.container {
+    padding: 40px 80px;
+}
+
+.container.dark {
+    background-color: var(--dark-background);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.container .navbar {
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.container .navbar ul li {
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: var(--light-color);
+}
+
+.navbar a:hover {
+    color: var(--gray-background);
+}
+
+.header-wrap {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-text.light {
+    color: var(--light-color);
+}
+
+.info-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box {
+    border: 3px solid var(--button-color);
+    width: 80px;
+    height: 80px;
+}
+
+.box-wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-info {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container.gray {
+    background-color: var(--gray-background);
+}
+
+.quote-wrap {
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    max-width: 700px;
+}
+
+.quote {
+    color: var(--dark-background);
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.signature {
+    font-weight: 900;
+    color: var(--dark-background);
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.cta-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--button-color);
+    height: 80px;
+    width: 700px;
+    border-radius: 10px;
+    padding: 10px 50px;
+    color: var(--light-color);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light-color);
+    padding: 10px;
+}
+
+
+
+
+
